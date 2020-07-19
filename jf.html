@@ -1,0 +1,322 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>集房</title>
+
+    <link rel="stylesheet" type="text/css" href="./header.css" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <link rel="stylesheet" type="text/css" href="./footer.css" />
+
+    <script type="text/javascript" src="./js/Chart.min.js"></script>
+    <script src="./js/vue.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <!--头部区域-->
+    <header>
+        <div class="beijing">
+            <div class="touming">
+                <!--导航栏-->
+                <nav>
+                    <!--logo-->
+                    <div class="logo">
+                        <img src="./img/whiteLogo.png" alt="请刷新页面" />
+
+                    </div>
+                    <!--导航栏链接-->
+                    <div class="navtext">
+                        <ul>
+                            <li>
+                                <a href="" style="color: #fff;">关于集房</a>
+                            </li>
+                            <li>
+                                <a href="" style="color: #fff;">登录</a>
+                            </li>
+                            <li>
+                                <a href="" style="color: #fff;">注册</a>
+                            </li>
+                            <li>
+                                <a href="" style="color: #fff;">Advertise with us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!--简介区-->
+                <div class="jianjie">
+                    <!--1 文本-->
+                    <h3 class="Gif">GiFang.com</h3>
+                    <!--2 文本-->
+                    <h1>全球华人的澳洲房产数据平台</h1>
+                    <!--3 文本-->
+                    <p>Buxton(Brighton)发布了房源 1 Bournev ille Avenue BRlGHTON EAST , VIC 3187 </p>
+                    <!--4 搜索引擎 -->
+                    <form class="">
+                        <!--下拉框-->
+                        <div class="dropdown">
+                            <button class="dropbtn">住宅地产 <img src="./ico/arrow_down.png" style="width: 15px; height: 15px;" alt="请刷新页面" /></button>
+                            <div class="dropdown-content">
+                                <a href="">住宅一</a>
+                                <a href="">住宅二</a>
+                                <a href="">住宅三</a>
+                            </div>
+                        </div>
+                        <!--文本框-->
+                        <input type="text" class="sousuo">
+                        <!--按钮-->
+                        <input type="button" class="sou" value="搜集房">
+                    </form>
+
+                    <!--5 下拉窗口-->
+                    <div>
+
+                    </div>
+                    <!--6 图形报表-->
+                    <div>
+                        <!--<canvas id="canvas" width="595" height="297" class="chartjs-render-monitor" style="display: block; width: 595px; height: 297px;"></canvas>-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--内容区域-->
+    <main>
+        <!--统计区-->
+        <div class="tongji">
+            <div class="saa">
+                <img src="/ico/wifi.png" alt="请刷新页面" width="50px" height="50px" /><br><br>
+                <a href="" style="font-size: 18px;">172,165</a><br>
+                <a href="" style="font-size: 8px;">当前平台总房数</a>
+            </div>
+            <div>
+                <img src="/ico/time.png" alt="请刷新页面" width="50px" height="50px" /><br><br>
+                <a href="" style="font-size: 18px;">263</a><br>
+                <a href="" style="font-size: 8px;">今日更新房源数（套）</a>
+            </div>
+            <div>
+                <img src="/ico/phone bill.png" alt="请刷新页面" width="50px" height="50px" /><br><br>
+                <a href="" style="font-size: 18px;"> 4,214,260k</a><br>
+                <a href="" style="font-size: 8px;"> 上个月房产交易总额（澳元 ）</a>
+            </div>
+            <div>
+                <img src="/ico/favoriteslist.png" alt="请刷新页面" width="50px" height="50px" /><br><br>
+                <a href="" style="font-size: 18px;">2,674,234</a><br>
+                <a href="" style="font-size: 8px;">当前平台可供分析的数据量（条）</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <div>
+                <h2 style="text-align: center;">最新精选房源</h2>
+            </div>
+            <br>
+            <!--两块-->
+            <div>
+                <div class="liangkuai">
+                    <div>
+                        <img src="图像地址" alt="请刷新页面" style="width: 580px; height:370px ; margin: 0px 20px 0px 100px;" /><br>
+                        <a href="">$420,000-$450,000</a><br><br>
+                        <a href="">1009/7 Katherine Place,MELBOURNE,VIC 3000</a>
+                    </div>
+                    <div>
+                        <img src="http://www.w3.org/2000/svg" alt="请刷新页面" style="width: 580px; height:370px ;" /><br>
+                        <a href="">$440,000-$480,000</a><br><br>
+                        <a href="">1009/7 Katherine Place,MELBOURNE,VIC 3000</a>
+                    </div>
+                </div>
+            </div>
+            <!--三块-->
+            <div>
+                <div class="shankuai">
+                    <div>
+                        <img src="图像地址" alt="请刷新页面" style="width: 380px; height: 240px; margin: 0px 0px 0px 100px;" /><br>
+                        <a href="">$420,000-$450,000</a><br><br>
+                        <a href="">1009/7 Katherine Place,MELBOURNE,VIC 3000</a>
+                    </div>
+                    <div>
+                        <img src="http://www.w3.org/2000/svg" alt="请刷新页面" style="width: 380px; height: 240px; margin: 0px 18px 0px 18px;" /><br>
+                        <a href="">949,000</a><br><br>
+                        <a href="">1009/7 Katherine Place,MELBOURNE,VIC 3000</a>
+                    </div>
+                    <div>
+                        <img src="http://www.w3.org/2000/svg" alt="请刷新页面" style="width: 380px; height: 240px;" /><br>
+                        <a href="">拍卖（时间2017-09-09 10:30）</a><br><br>
+                        <a href="">1009/7 Katherine Place,MELBOURNE,VIC 3000</a>
+                    </div>
+
+                </div>
+            </div>
+            <div style="width:170px ; height: 50px;  border:1px solid #000; border-radius: 5px;">
+                <br> 查找更多房源
+            </div>
+        </div>
+        <!--热门城市数据-->
+        <br>
+        <br>
+
+        <div>
+            <h2>城市热门数据</h2>
+        </div>
+        <div class="ditu">
+            <!--地图-->
+            <div>
+
+            </div>
+            <!--数据-->
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+        <!--集房-->
+        <div class="zhongjian">
+            <div class="bei">
+                <div>
+                    <img src="./img/whiteLogo.png" /><br><br>
+                    <a href="">GiFang.com</a>
+                </div>
+                <br>
+                <div>
+                    <div class="fang">
+                        <div>
+                            <a href="">房屋中间价</a><br><br>
+                            <a href="">$780,652</a>
+                        </div>
+                        <div>
+                            <a href="">本月新上房源</a><br><br>
+                            <a href="">3261</a>
+                        </div>
+                        <div>
+                            <a href="">同比上月增长</a><br><br>
+                            <a href="">1.26%</a>
+                        </div>
+                        <div>
+                            <a href="">本月开放日的数量</a><br><br>
+                            <a href="">1621</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!--让我们帮您免费找房-->
+        <br>
+        <br>
+        <div>
+            <form class="fr">
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>让我们帮您免费找房</h1>
+                </div>
+
+                <div class="zuodui">
+                    <input type="text" placeholder="请输入您的称呼"><br>
+                    <input type="text" placeholder="请输入您的手机号"><br>
+                    <input type="text" placeholder="请输入你的邮箱">
+                </div>
+                <div style=" float: right; padding: 58px 55px 0px 0px;">
+                    <input type="text" style="width:630px ; height: 190px; border-radius: 5px;"><br>
+                    <input type="button" style="background-color: #06adee; width: 150px ; height:50px ;  border: 0px; border-radius: 5px; margin: 20px 0px 0px 455px;" value="提交">
+                </div>
+            </form>
+            <br>
+            <br>
+
+            <div class="tupian1">
+                <img src="./img/Vicland-Horizontal.png" alt="请刷新页面" />
+            </div>
+            <br>
+            <br>
+            <div class="fenzhan">
+                <div style="height: 43px;"></div>
+                <ul class="com">
+                    <li>
+                        <a href="" style="color: #003c85; font-weight:bold;">GiFang.com</a>
+                    </li>
+                    <li>
+                        <a href="" style="font-weight:bold;">地区分站</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">悉尼买房</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">墨尔本买房</a>
+
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">布里斯班买房</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">佩斯买房</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">阿德莱德买房</a>
+                    </li>
+                    <li>
+                        <a href="" style="color: #003c85;">堪培拉买房</a>
+                    </li>
+                    <li>
+                        <a href="">达尔文买房</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <!--尾部区域-->
+    <footer>
+        <div class="weibu">
+            <div>
+                <img src="./img/bottomLogo.png" alt="请刷新页面" /><br><br>
+                <a href="" style="color: #fff;">TO TOP</a>
+            </div>
+            <ul class="ulli">
+                <li>
+                    <a href="">关于集房</a>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">合作机会</a>
+                    <a href="">Cooperation</a>
+                </li>
+                <li>
+                    <a href="">隐私声明</a>
+                    <a href="">Privacy</a>
+                </li>
+                <li>
+                    <a href="">我们的责任</a>
+                    <a href="">Responsibilities</a>
+                </li>
+                <li>
+                    <a href="">使用条款</a>
+                    <a href="">Terms</a>
+                </li>
+                <li>
+                    <a href="">合作伙伴</a>
+                    <a href="">partners</a>
+                </li>
+                <li>
+                    <a href="">广告服务</a>
+                    <a href="">Adevertise</a>
+                </li>
+            </ul>
+            <div class="banquan">
+                <p>@ 集房 GiFang.com 2011 - 2017 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
